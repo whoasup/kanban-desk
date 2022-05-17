@@ -66,11 +66,11 @@ textarea {
 // rgba не подойдет, сконвертируйте цвет в hex без прозрачности
 // если в стилях уже используется box-shadow есть другое решение -
 // задать к списку транзишенов `background-color 10000000s ease-out`
-// input:-webkit-autofill {
-//   box-shadow: inset 0 0 0 1000px var(--color-background);
+input:-webkit-autofill {
+  box-shadow: inset 0 0 0 1000px var(--color-bg-secondary);
 
-//   -webkit-text-fill-color: var(--color-text);
-// }
+  -webkit-text-fill-color: var(--color-text);
+}
 
 // firefox placeholder \ invalid fix + ios bdrs
 input,
