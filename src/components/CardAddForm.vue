@@ -61,6 +61,7 @@ function addBtnHandler() {
 
 <style lang="scss" scoped>
 .add-form {
+  max-width: 100%;
   &__footer {
     display: flex;
   }
@@ -127,6 +128,7 @@ function addBtnHandler() {
 
     &::placeholder {
       color: inherit;
+      max-width: 100%;
     }
   }
 }

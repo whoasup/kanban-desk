@@ -37,14 +37,16 @@ watch(
   padding: 16px 0;
   left: 0;
 
-  display: flex;
+  display: grid;
+
   margin: 0;
 
   list-style: none;
+  grid-template-columns: repeat(4, 1fr);
+
   gap: 16px;
 
   @include vp--1023 {
-    display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
 
